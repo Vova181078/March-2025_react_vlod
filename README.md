@@ -70,3 +70,6 @@ export default tseslint.config([
 git rm .idea/ -r --cached
 git add -u .idea/
 git commit -m "Removed the .idea folder"
+
+lesson-1: components, tailwind,styles,map/homeworks:
+render elements,create models and make styles.
