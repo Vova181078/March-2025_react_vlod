@@ -1,11 +1,25 @@
+// з arrays.js взяти масив simpsons.
+//
+//     Кореневим компонентом є App
+//
+// Створити компонент CharacterComponent, який буде містити всю інформацію щодо окремого об’єкту масиву. Розмітка компонента довільна. Опис персонажу передати через children.
+//
+//     Створити компонент FamilyComponent, в якому буде відбуватись ітерація по масиву simpsons.
+//
+//     Стилізація довільна, але обов’язково підключена і мінімально зроблена (хоча б один стиль, який працює).
+
 import './App.css'
+import {FamilyComponent} from "./components/FamilyComponent.tsx";
+
+
+
 
 function App() {
 
 
   return (
     <>
-
+       <FamilyComponent/>
     </>
   )
 }
