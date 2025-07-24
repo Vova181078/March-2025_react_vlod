@@ -70,3 +70,15 @@ export default tseslint.config([
 git rm .idea/ -r --cached
 git add -u .idea/
 git commit -m "Removed the .idea folder"
+
+lesson-2/task1
+<!--https://jsonplaceholder.typicode.com/todos – тут масив даних. Ознайомтесь з ним для початку-->
+
+<!--Створити компонент TodoComponent, який буде містити інформацію про окремий об’єкт з масиву.-->
+
+<!--Створити компонент TodosComponents, в якому відбувається ітерація масиву даних, отриманих з апі.
+App головна
+
+VITE_API_BASE_URL=https://jsonplaceholder.typicode.com
+-->
+
