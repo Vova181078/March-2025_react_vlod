@@ -70,3 +70,6 @@ export default tseslint.config([
 git rm .idea/ -r --cached
 git add -u .idea/
 git commit -m "Removed the .idea folder"
+
+api folder env for task todos:
+VITE_API_BASE_URL=https://dummyjson.com;
