@@ -70,3 +70,12 @@ export default tseslint.config([
 git rm .idea/ -r --cached
 git add -u .idea/
 git commit -m "Removed the .idea folder"
+
+
+Побудувати меню з можливістю переходу на наступні сторінки:
+/users
+/posts
+/comments
+/products
+
+Контент на сторінках відсутній. Лише грамотна обробка роутів в двох варіантах (router object  та browser router (необов’язково, але рекомендовано))
