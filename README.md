@@ -70,3 +70,18 @@ export default tseslint.config([
 git rm .idea/ -r --cached
 git add -u .idea/
 git commit -m "Removed the .idea folder"
+
+task3:
+Побудувати меню, з можливістю переходу на наступні маршрути:
+
+/users/jsonplaceholder – відобразити всі об’єкти з  https://jsonplaceholder.typicode.com/users
+
+/users/dummyjson – відобразити всі об’єкти з https://dummyjson.com/users
+
+/posts/jsonplaceholder- відобразити всі об’єкти з  https://jsonplaceholder.typicode.com/posts
+
+/posts/dummyjson – відобразити всі об’єкти з https://dummyjson.com/posts
+
+/comments/jsonplaceholder – відобразити всі об’єкти з https://jsonplaceholder.typicode.com/comments
+
+/comments/dummyjson – відобразити всі об’єкти з https://dummyjson.com/comments
