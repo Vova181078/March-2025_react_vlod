@@ -5,17 +5,19 @@ const Menu = () => {
     return (
         <div>
             <ul>
-                <li><Link to="/users">users page</Link></li>
-                <li><Link to="/users/jsonplaceholder">users json page</Link></li>
-                <li><Link to="/users/dummyjson">users dummy page</Link></li>
+                <li><Link to="/users">Users</Link></li>
+                <li><Link to="/users/jsonplaceholder">Users-jsonplaceholder</Link></li>
+                <li><Link to="/users/dummyjson">Users-dummyjson</Link></li>
 
-                <li><Link to="/posts">posts page</Link></li>
-                <li><Link to="/posts/jsonplaceholder">posts json page</Link></li>
-                <li><Link to="/posts/dummyjson">posts dummy page</Link></li>
+                <li><Link to="/posts">Posts</Link></li>
+                <li><Link to="/posts/jsonplaceholder">Posts-jsonplaceholder</Link></li>
+                <li><Link to="/posts/dummyjson">Posts-dummyjson</Link></li>
 
-                <li><Link to="/comments">comments json page</Link></li>
-                <li><Link to="comments/jsonplaceholder">comments json page</Link></li>
+                <li><Link to="/comments">Comments</Link></li>
+                <li><Link to="/comments/jsonplaceholder">Comments-jsonplaceholder</Link></li>
+
             </ul>
+
         </div>
     );
 };
