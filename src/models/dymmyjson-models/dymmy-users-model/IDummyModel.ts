@@ -1,3 +1,7 @@
+import type { Hair } from "./Hair";
+import type {Address} from "./Address.ts";
+import type {Bank} from "./Bank.ts";
+import type { Company } from "./Company.ts";
 
 
 export interface IUsersDummy {
@@ -32,7 +36,7 @@ export interface IUsersDummy {
 }
 
 export interface ResponseDummyUsers {
-  users: Users[];
+  users: IUsersDummy[];
     total: number;
     skip: number;
     limit: number;
