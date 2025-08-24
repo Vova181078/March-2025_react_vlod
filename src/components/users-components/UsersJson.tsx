@@ -1,14 +1,14 @@
 import {useEffect, useState} from "react";
 import UserJson from "../user-componennt/UserJson.tsx";
 import type {IUsersJson} from "../../models/jsonplaceholder-models/json-users-model/IJsonModel.ts";
+import {userService} from "../../services/api.services.ts";
 
 
 
 const UsersJson = () => {
     const [users, setUsers] = useState<IUsersJson[]>([]) ;
     useEffect(() => {
-        fetch('https://jsonplaceholder.typicode.com/users')
-        .then(res => res.json())
+       userService.getJsonUsers()
         .then(data => setUsers(data));
     })
     return (

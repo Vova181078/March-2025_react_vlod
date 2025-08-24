@@ -10,10 +10,10 @@ type PostJsonProps = {
 const PostJson:FC<PostJsonProps> = ({item}) => {
     return (
         <div>
-            <p>{item.id}</p>
-            <p>{item.title}</p>
-            <p>{item.userId}</p>
-            <p>{item.body}</p>
+            <p>id: {item.id}</p>
+            <p>title: {item.title}</p>
+            <p>userId: {item.userId}</p>
+            <p>body: {item.body}</p>
         </div>
     );
 };

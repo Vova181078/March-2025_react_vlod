@@ -5,6 +5,7 @@ import CommentsJson from "../../components/comments-components/comments-json-com
 const CommentsJsonPage = () => {
     return (
         <div>
+            <h2>Comments jsonplaceholder:</h2>
             <CommentsJson/>
 
         </div>

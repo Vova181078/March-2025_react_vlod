@@ -3,6 +3,7 @@
 import {useEffect, useState} from "react";
 import type {IPostsJson} from "../../models/jsonplaceholder-models/json-posts-models/IPostsJson.ts";
 import PostJson from "../post-components/PostJson.tsx";
+import {getJsonPosts} from "../../services/api.services.ts";
 
 
 
@@ -10,8 +11,7 @@ import PostJson from "../post-components/PostJson.tsx";
 const PostsJson = () => {
     const [posts, setPosts] = useState<IPostsJson[]>([]) ;
     useEffect(() => {
-        fetch('https://jsonplaceholder.typicode.com/posts')
-            .then(res => res.json())
+       getJsonPosts()
             .then(data => setPosts(data));
     })
     return (

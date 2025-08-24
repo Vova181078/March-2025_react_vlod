@@ -8,18 +8,17 @@ type UserDummyProps = {
 const UserDummy:FC<UserDummyProps> = ({item}) => {
     return (
         <div>
-            <p>{item.id}</p>
-            <p>{item.firstName}</p>
-            <p>{item.lastName}</p>
-            <p>{item.maidenName}</p>
-            <p>{item.age}</p>
-            <p>{item.gender}</p>
-            <p>{item.email}</p>
-            <p>{item.phone}</p>
-            <p>{item.username}</p>
-            <p>{item.password}</p>
-            <p>{item.birthDate}</p>
-            <p>{item.image}</p>
+            <p>id: {item.id}</p>
+            <p>firstName: {item.firstName}</p>
+            <p>lastName: {item.lastName}</p>
+            <p>maidenName: {item.maidenName}</p>
+            <p>age: {item.age}</p>
+            <p>gender: {item.gender}</p>
+            <p>email: {item.email}</p>
+            <p>phone: {item.phone}</p>
+            <p>username: {item.username}</p>
+            <p>password: {item.password}</p>
+            <p>birthDate: {item.birthDate}</p>
         </div>
     );
 };

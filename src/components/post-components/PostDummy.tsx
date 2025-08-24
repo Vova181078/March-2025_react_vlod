@@ -9,13 +9,13 @@ type PostDummyProps = {
 const PostDummy:FC<PostDummyProps> = ({item}) => {
     return (
         <div>
-            <p>{item.id}</p>
-            <p>{item.title}</p>
-            <p>{item.userId}</p>
-            <p>{item.body}</p>
-            <p>{item.tags[0]}</p>
-            <p>{item.reactions.likes}</p>
-            <p>{item.views}</p>
+            <p>id: {item.id}</p>
+            <p>title: {item.title}</p>
+            <p>userId: {item.userId}</p>
+            <p>body: {item.body}</p>
+            <p>tags: {item.tags[0]}</p>
+            <p>reactions: {item.reactions.likes}</p>
+            <p>views: {item.views}</p>
         </div>
     );
 };

@@ -10,11 +10,11 @@ type CommentJsonProps = {
 const CommentJson:FC<CommentJsonProps> = ({item}) => {
     return (
         <div>
-            <p>{item.id}</p>
-            <p>{item.postId}</p>
-            <p>{item.name}</p>
-            <p>{item.email}</p>
-            <p>{item.body}</p>
+            <p>id: {item.id}</p>
+            <p>postId: {item.postId}</p>
+            <p>name: {item.name}</p>
+            <p>email: {item.email}</p>
+            <p>body: {item.body}</p>
         </div>
     );
 };

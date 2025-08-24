@@ -8,11 +8,11 @@ type UserJsonProps = {
 const UserJson:FC<UserJsonProps> = ({item}) => {
     return (
         <div>
-            <p>{item.id}</p>
-            <p>{item.name}</p>
-            <p>{item.username}</p>
-            <p>{item.email}</p>
-            <p>{item.address.street}</p>
+            <p>id: {item.id}</p>
+            <p>name: {item.name}</p>
+            <p>username: {item.username}</p>
+            <p>email: {item.email}</p>
+            <p>address: {item.address.street}</p>
         </div>
     );
 };
