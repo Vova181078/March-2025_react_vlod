@@ -67,3 +67,16 @@ export default tseslint.config([
   },
 ])
 ```
+
+less-4:
+env:  VITE_BASE_URL=https://dummyjson.com;
+
+#mtNy6QQ
+
+Є наступні сторінки:
+
+UsersPage – відтворює користувачів з api dummyjson.com (довільна розмітка та кількість інфи про об’єкт).
+
+Додати кнопки “вперед” “назад” для пагінації об’єктів.
+
+
