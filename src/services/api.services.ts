@@ -44,7 +44,7 @@ export const getDummyPosts = async (): Promise<IPostsDummy[]> => {
         .then((data: ResponsePosts) => data.posts);
 };
 
-export const getDummyComments = async () => {
+export const getDummyComments = async ():Promise<ICommentsJson[]> => {
     return await fetch(urlsDummy.comments.allComments)
         .then(res => res.json());
 };
