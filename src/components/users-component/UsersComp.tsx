@@ -2,7 +2,7 @@ import {useEffect, useState} from "react";
 import type {IUser} from "../../models/users-dymmy-model/IUsersDummy.ts";
 import type {IUserResponseModel} from "../../models/users-dymmy-model/IUserResponseModel.ts";
 import UserComp from "../user-component/UserComp.tsx";
-import {userService} from "../../constans/api.services.ts";
+import {userService} from "../../services/api.services.ts";
 
 
 

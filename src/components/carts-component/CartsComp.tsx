@@ -3,7 +3,7 @@ import CartComp from "../cart-component/CartComp.tsx";
 import {useParams} from "react-router-dom";
 import type {ICartsResponseModel} from "../../models/carts-dymmy-model/ICartsResponseModel.ts";
 import type {ICart} from "../../models/carts-dymmy-model/ICartsDummy.ts";
-import {cartService} from "../../constans/api.services.ts";
+import {cartService} from "../../services/api.services.ts";
 
 
 const CartsComp = () => {
