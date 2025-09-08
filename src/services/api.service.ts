@@ -9,7 +9,7 @@ export const userService = {
    getUsers: async (page: string): Promise<IResponseUsers> => {
        let skip = 0;
        const limit = 30;
-       if (+page > 0) {
+       if (+page >= 0) {
         skip = limit * (+page) - limit;
 }
 //        const limit = 30;
