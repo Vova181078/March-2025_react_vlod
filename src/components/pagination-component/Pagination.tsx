@@ -4,7 +4,10 @@ import {useSearchParams} from "react-router-dom";
 const Pagination = () => {
     const [searchParams, setSearchParams] = useSearchParams({page: '1'});
     const maxPage = 7;
+
     let currentPage = Number(searchParams.get('page') || '1');
+    if (isNaN(currentPage) || currentPage < 1) currentPage = 1;
+    if (currentPage > maxPage) currentPage = maxPage;
     return (
         <div>
              <button onClick={() => {
