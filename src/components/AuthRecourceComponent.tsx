@@ -23,7 +23,7 @@ const AuthResourceComponent = () => {
     return (
         <div>
 
-            {products.map((product,index) => <ProductComp key={index} item={product}/>)}
+            {products.map((product) => <ProductComp key={product.id} item={product}/>)}
 
         </div>
     );
