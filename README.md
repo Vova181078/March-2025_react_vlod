@@ -9,6 +9,13 @@ Currently, two official plugins are available:
 
 ## Expanding the ESLint configuration
 
+less7  task2:
+Створити кастомний  хук,  який буде повертати відповіді з апі і заміняти useState+ useEffect.  ендпоінт апі –   аргумент вашого хука. Продумати логіку типізації відповіді.
+
+Приклад сигнатури:
+
+useFetch<T>(url)
+
 If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
 
 ```js
