@@ -37,6 +37,7 @@ export default tseslint.config([
     },
   },
 ])
+
 ```
 
 You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
@@ -67,3 +68,10 @@ export default tseslint.config([
   },
 ])
 ```
+
+less-7   task3:
+GP0nA6rxivp
+
+Зробити дерево компонентів, у дві сторони. Чим глибше, тим краще для вас.
+
+Зробити контекст. Зробити кнопку, яка буде міняти “тему” зі світлої на темну.
